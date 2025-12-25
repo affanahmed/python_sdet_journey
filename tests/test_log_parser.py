@@ -1,5 +1,5 @@
 import pytest
-from src.log_parser import count_errors
+from log_parser import count_errors
 
 def test_count_errors_basic():
     assert count_errors("ERROR abc ERROR") == 2
